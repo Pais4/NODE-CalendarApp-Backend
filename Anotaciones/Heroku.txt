@@ -1,0 +1,22 @@
+************************* HEROKU *************************
+
+-> Heroku va a aplicar el comando Start para levantar la aplicacion de node, por eso
+debemos tener ese comando en el JSON
+
+1. Descargamos e instalamos el Heroku CLI
+https://devcenter.heroku.com/articles/heroku-cli
+
+2. En la terminal 
+-> heroku login
+-> cd my-project/
+-> git init
+-> heroku git:remote -a mern-calendar-pais4
+-> git add .
+-> git commit -am "make it better"
+-> git push heroku master
+
+3. Repositorio
+-> https://git.heroku.com/mern-calendar-pais4.git
+
+4. Revisar lo que sucede en heroku desde mi terminal
+-> heroku logs -n 1000 --tail -> Para que siempre este escuchando en la terminal
