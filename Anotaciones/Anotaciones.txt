@@ -1,0 +1,47 @@
+********** INICIANDO EL PROYECTO **********
+-> npm init -y
+
+********** HTTP STATUS CODES **********
+https://www.restapitutorial.com/httpstatuscodes.html
+
+------------------------------ PAQUETES ------------------------------
+
+********** NODEMON **********
+-> npm i nodemon -g (Permisos de Administrador para instalar globalmente)
+
+********** EXPRESS **********
+-> npm i express
+
+********** DOTENV **********
+-> npm i dotenv (Variables de entorno -> .env)
+
+********** EXPRESS VALIDATOR **********
+-> npm i express-validator (Nos dispone de un monton de middlewares)
+
+********** MONGOOSE ODM **********
+https://mongoosejs.com/
+npm i mongoose
+
+********** BCRYPTJS **********
+npm i bcryptjs
+
+********** JWT **********
+https://jwt.io
+npm i jsonwebtoken
+
+********** CORS **********
+https://www.npmjs.com/package/cors
+npm i cors
+
+********** MOMENT **********
+npm i moment
+
+----------------------------------------------------------------------
+
+********** MIDDLEWARE **********
+-> Es una funcion que se ejecuta en el momento en que alguien hace una peticion a 
+mi servidor
+
+********** CORS **********
+-> Con el cors podemos restringir de donde se van a hacer las peticiones hacia el backend,
+desde que dominios ej-> (www.fernandoherrera.com) las dejo pasar, si queremos o sino, no.
